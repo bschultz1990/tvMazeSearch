@@ -5,7 +5,7 @@ form.addEventListener("submit", async function (e) {
     e.preventDefault();
     removeAllChildNodes(resultbox); // Clear results for subsequent searches.
     const search = form.elements.query.value;
-    const result = await axios.get(`http://api.tvmaze.com/search/shows?q=${search}`);
+    const result = await axios.get(`https://api.tvmaze.com/search/shows?q=${search}`);
     for (let i = 0; i <= 10; i++) {
         // Display the images of the first 10 results from the query as links:
         const showLink = document.createElement("a");
