@@ -1,7 +1,7 @@
 # tvMazeSearch 📺
 
 ## Overview
-A front-end page that pulls data from [TVMaze.com](https://www.tvmaze.com). This project demonstrates the ability to pull data from outside resources and format it using a customized layout.
+A front-end page for [TVMaze.com](https://www.tvmaze.com). This project demonstrates the ability to pull data from outside resources and format it using a customized layout.
 
 ## Features
 This project displays the first 10 results for your TV show query. Each image is dynamically pulled and linked to its appropriate series page. Clicking on an image will open that page in a separate tab.
